@@ -10,6 +10,27 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee+Spice">
   <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity= "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"crossorigin="anonymous"> 
+
+<script src="https://kit.fontawesome.com/136b4fde49.js"crossorigin="anonymous"> 
+	</script> 
+	<title>Bootstrap 5 Images Aligning Images</title> 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+		rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+		crossorigin="anonymous"> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"> 
+	</script> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
   
     body {
@@ -60,7 +81,7 @@ h2.b {
   padding-top:30px;
   
   
-  padding-left:100px;
+  padding-left:30px;
   
   
 }
@@ -70,7 +91,7 @@ font-family: "Audiowide", sans-serif;
   font-size:40px;
   text-align:center;
   padding-top:30px;
-  padding-right:80px;
+ 
 }
 .illustration {
 	float:right;
@@ -96,7 +117,7 @@ p.a{
  font-family: "Josefin+Sans", serif;
  font-size:20px;
 text-align:justify;
-padding-left:100px;
+padding-left:0px;
 opacity:0.5;
 line-height:1.6;
 
@@ -105,10 +126,10 @@ p.b{
  font-family: "Josefin+Sans", serif;
  font-size:20px;
 text-align:justify;
-padding-right:150px;
+padding-right:30px;
 opacity:0.5;
 justify-content:right;
-line-height:1.6;
+line-height:2;
 }
 .div4 {
   padding-right: 100px;
@@ -313,131 +334,188 @@ background-color:#81dba2;
   color: white;
   justify-content:center;
 }
+/* Add responsive styles */
+@media only screen and (max-width: 600px) {
+    /* Styles for small screens (e.g., smartphones) */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for medium screens (e.g., tablets) */
+}
+
+@media only screen and (min-width: 1025px) {
+    /* Styles for large screens (e.g., desktops) */
+}
 
   </style>
 </head>
 
 <body>
 
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About Us</a>
-    <a href="#services">Services</a>
-    <a href="#Contact" >Contact</a>
-  </nav>
+  <nav class= "navbar navbar-expand-sm navbar-dark bg-dark ">   
+<div class= "mx-auto d-sm-flex d-block flex-sm-nowrap ">        
+     
+    
+ <div class= "collapse navbar-collapse text-center " id= "navbarsExample11 ">
+<ul class= "navbar-nav ">                 
+<li class= "nav-item">                     
+<a class= "nav-link " href= "#home">Home</a> 
+</li>                 
+<li class= "nav-item ">  
+<a class= "nav-link " href= "#about">About</a>                 
+</li>                 
+<li class= "nav-item ">
+<a class= "nav-link " href= "#services">Services</a>
+</li>                 
+<li class= "nav-item ">
+<a class= "nav-link " href= "#Contact">Contact</a>                 
+</li>                             
+ </ul>        
+ </div>     
+ </div> 
+ </nav>
 
-  <section class="banner">
-  <div style="padding-right:80px; opacity:0.6;" >
-    <p >Its never too late to dream</p>
-	<div>
-  </section>
+ <div class="row"> 
+			<div class="col-12" style= 
+				"background:url(https://png.pngtree.com/thumb_back/fh260/back_pic/00/02/44/5056179b42b174f.jpg);height:300px;"> 
+			</div> 
+</div>
+
 
 
   <section id="home">
-  <div class="illustration">
-		
-      <img src="src/Seminar.gif" alt="Illustration" style="width:600px;height:600px;margin-right:50px;" >
-    </div>
+
+
+
+<div class="container-fluid">
   
-    
-    <h1 class="a" >Welcome to Career Path!</h1>
-	
-	<p class="a">Step into a world of exciting possibilities with our admissions website! Imagine a place where you can discover 
-	what you love and set the stage for your future. 
-	Our website is like a key that opens doors to different programs designed just for you.</p>
-	
-    <a href="https://forms.gle/z58XQ84PTcwvzErh7"  class="get-started-btn" target="_blank">Get Started</a>
+   <div class="row">
+	                 <div class="col-lg-7" style="padding-top:50px; ">
+                    <!-- Right content -->
+                    
+                    <h1 class="a">Welcome To Career Path!</h1>
+                    <p class="b" style="padding-left:60px; line-height:2.3;">We're here to help you every step of the way. Our team specializes in making college
+                        dreams a reality. First up, we've got the insider scoop to help you pick the perfect college that
+                        fits your dreams like a glove. And guess what? We're like scholarship wizards, uncovering hidden
+                        opportunities to make your academic journey budget-friendly.
+                        College dreams + financial ease = a win-win! But it's not just about where you go; it's about
+                        finding your path.</p>
+                </div>
+                <div class="col-lg-5">
+                    <!-- Left illustration -->
+                    <div class="illustration1">
+                        <img src="src/seminar.gif" alt="Illustration" class="img-fluid">
+                    </div>
+                </div>
+
+            </div>
+</section>
+
+  <section id="about">
+  	<div style="font-family: Audiowide, sans-serif;  font-size:50px; text-align:center; ">About Us </div>
+
+            <div class="row">
+                <div class="col-lg-5">
+                    <!-- Left illustration -->
+                    <div class="illustration1">
+                        <img src="src/About us page.gif" alt="Illustration" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6" style="padding-top:50px; ">
+                    <!-- Right content -->
+                    
+                    <h3 class="c">Who We Are?</h3>
+                    <p class="b" style="padding-Right:40px;">We're here to help you every step of the way. Our team specializes in making college
+                        dreams a reality. First up, we've got the insider scoop to help you pick the perfect college that
+                        fits your dreams like a glove. And guess what? We're like scholarship wizards, uncovering hidden
+                        opportunities to make your academic journey budget-friendly.
+                        College dreams + financial ease = a win-win! But it's not just about where you go; it's about
+                        finding your path.</p>
+                </div>
+            </div>
+        </section>
+
+ <section id="services" >
+   	<div style="font-family: Audiowide, sans-serif;  font-size:50px; text-align:center; ">Services </div>
+
+  <div class="container-fluid">
+  
+  
+  
+     <div class="row">
+	                 <div class="col-lg-6" style="padding-top:50px; ">
+                    <!-- Right content -->
+                    
+                    <h3 class="c">Admission Guidance</h3>
+                    <p class="b"style="padding-left:40px;">We're here to help you every step of the way. Our team specializes in making college
+                        dreams a reality. First up, we've got the insider scoop to help you pick the perfect college that
+                        fits your dreams like a glove. And guess what? We're like scholarship wizards, uncovering hidden
+                        opportunities to make your academic journey budget-friendly.
+                        College dreams + financial ease = a win-win! But it's not just about where you go; it's about
+                        finding your path.</p>
+                </div>
+                <div class="col-lg-5">
+                    <!-- Left illustration -->
+                    <div class="illustration1">
+                        <img src="src/guidance.png" alt="Illustration" class="img-fluid">
+                    </div>
+                </div>
+
+            </div>
+	  
+	  	 <div class="row">
+                
+                <div class="col-lg-6" style="padding-top:50px; ">
+                    <!-- Right content -->
+                    
+                    <h3 class="c">scholarship Arrangements</h3>
+                    <p class="b" style="padding-right:40px;">We're here to help you every step of the way. Our team specializes in making college
+                        dreams a reality. First up, we've got the insider scoop to help you pick the perfect college that
+                        fits your dreams like a glove. And guess what? We're like scholarship wizards, uncovering hidden
+                        opportunities to make your academic journey budget-friendly.
+                        College dreams + financial ease = a win-win! But it's not just about where you go; it's about
+                        finding your path.</p>
+                </div>
+				<div class="col-lg-5">
+                    <!-- Left illustration -->
+                    <div class="illustration1">
+                        <img src="src/scholar.png" alt="Illustration" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
   </section>
-<br>
-<br>
-<br>
-
-<br><br>
-<br>
-
-  <section id="about" >
-  <h2 class="b">About Us</h2>
   
   
-  <div class="row">
-  <div class="column" >
-   <div class="illustration1">
-		
-      <img src="src/About us page.gif" alt="Illustration" style="width:600px;height:500px;margin-left:50px;" >
-    </div>
-  </div>
-  <div class="column" >
-  <h3 class="c">Who We Are ?</h3>
-    <p class="b">we're here to help you every step of the way. Our team specializes in making college dreams a reality. First up, 
-	we've got the insider scoop to help you pick the perfect college that fits your dreams like a glove. And guess what? We're like scholarship wizards, 
-	uncovering hidden opportunities to make your academic journey budget-friendly.
-	College dreams + financial ease = a win-win! But it's not just about where you go; it's about finding your path.</p>
-  </div>
-  
-  </div>
-  
-  
-    
-   
-  </section>
-  
-  <br><br><br><br><br><br><br><br><br><br><br>
 
-  <section id="services">
-    <h2 class="b">Our Services</h2>
-    <div class="row">
-  <div class="column" >
-   <div class="illustration1">
-		
-      <img src="src/guidance.png" alt="Illustration" style="width:500px;height:400px;margin-left:50px;" >
-    </div>
-  </div>
-  <div class="column" >
-    <h3 class="c">Admission Guidance</h3>
-    <p class="b">Navigating the complexities of applying to educational programs. We provide support for undergrad, grad, and professional admissions, 
-	offering insights on procedures, exams, documentation, and deadlines.
-	Elevate your chances with our assistance in crafting compelling application materials.
-	Make informed decisions for successful admission to your desired programs.</p>
-  </div>
-</div>
-<br><br><br><br><br><br>
- 
-     <div class="illustration">
-		
-      <img src="src/scholar.png" alt="Illustration" style="width:600px;height:500px;margin-right:50px; padding-top:60px;padding-right:100px;" >
-    </div>
-  
-    <div style="padding-top:60px;"></div>
-    <h3 class="c" >scholarship Arrangements</h3>
-	
-	<p class="a">Navigating the complexities of applying to educational programs. 
-	We provide support for undergrad, grad, and professional admissions, offering insights on procedures, exams, documentation, and deadlines. 
-	Elevate your chances with our assistance in crafting compelling application materials.
-	Make informed decisions for successful admission to your desired programs.</p>
-
-
-
-
-
-
-
-
-
-
-  </section>
-  <br><br><br><br>
   <section id="FAQ">
-  <h1 class="a" style="text-align:center;padding-top:90px;padding-right:40px;">FAQ</h1>
+  <div class="container-fluid">
   
-  <div class="row">
-  <div class="column" >
-  <div class="illustration1">
-   <img src = "src/FAQs.gif"  alt="illustration" style="width:600px;height:500px;margin-left:50px;">
-  </div>
-  </div>
   
-  <div class="column" style="justify-content:right;" >
-     <div class="faq-container" >
+  
+    <div class="col-sm-11 text " >
+	<div style="font-family: Audiowide, sans-serif;  font-size:50px;text-align:center; ">FAQ </div>
+	</div>
+		
+	<div class="row">
+	  	 <div class="col-lg-5">
+                    <!-- Left illustration -->
+                    <div class="illustration1">
+                        <img src="src/FAQs.gif" alt="Illustration" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6" style="justify-content: right;">
+                    <!-- Right content -->
+                    <div class="faq-container">
         <div class="faq-item">
             <h4>Q: How do I apply for admission?</h4>
             <p2 class="faq-answer">A: To apply for admission, visit our website and follow the instructions provided 
@@ -470,29 +548,73 @@ background-color:#81dba2;
 			for updates on your application status and any additional requirements.</p2>
         </div>
     </div>
-</div>
+      </div>
+
+    </div>
+   
+  </div>
+
+ 
+    
+
+
+
+
+
+
+
+
+
   </section>
+  
 
 <br><br><br><br><br><br>
 
 
 
   <section id="Contact">
-    <h1 class="a" style="text-align:center;padding-right:90px;">Contact Us</h1>
+    <div class="container-fluid">
+  
+  
+  
+    <div class="col-sm-12 text " >
+	<div style="font-family: Audiowide, sans-serif;  font-size:50px; text-align:center; ">Contact Us </div>
+	</div>
     <p style="text-align:Center;">Reach out to us for personalized career advice.</p>
 	<div style="text-align:center;">
    <a href="#" class="fa fa-whatsapp" ></a>
    </div>
+   </div>
   </section>
 
-  <footer>
-  <div>
-    <p>&copy; 2024 Career Path</p>
-	</div>
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-left">
+                <p>&copy; 2024 Career Path</p>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <p><a href="#" style="color: #FFFFFF; text-decoration: none;">Powered by Web2secure Securities</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+  
+  
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"integrity= "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"crossorigin="anonymous"> 
+	</script> 
 	
-	<a href="#" style="color:	#FFFFFF;text-decoration:none;">Powered by Web2secure Securities</a></p>
-  </footer>
-
+	<script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"integrity= "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"crossorigin="anonymous"> 
+	</script> 
+	
+	<script src= 
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"integrity= "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"crossorigin="anonymous"> 
+	</script> 
+	
+	<script src="detect-platform.js"></script>
 </body>
 
     
